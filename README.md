@@ -6,4 +6,4 @@ Dark and bright them for Sublime Text
 ![Screenshot](neka.png)
 
 
-details will be soon
+details will be soon...
