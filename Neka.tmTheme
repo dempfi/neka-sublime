@@ -20,11 +20,15 @@
                 <key>lineHighlight</key>
                 <string>#0d1319</string>
                 <key>selection</key>
-                <string>#6699CC35</string>
+                <string>#7AA3CC35</string>
+                <key>selectionBorder</key>
+                <string>#7AA3CC65</string>
                 <key>inactiveSelection</key>
-                <string>#5986B320</string>
+                <string>#7AA3CC25</string>
                 <key>findHighlight</key>
-                <string>#5eebb8</string>
+                <string>#FFE792</string>
+                <key>findHighlightForeground</key>
+                <string>#00000050</string>
                 <key>gutter</key>
                 <string>#080D12</string>
                 <key>gutterForeground</key>
