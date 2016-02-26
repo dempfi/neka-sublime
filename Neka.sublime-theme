@@ -198,7 +198,7 @@
   {
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
-    "row_padding": [32, 12],
+    "row_padding": [30, 9],
     "layer0.tint": [0, 0, 0, 0],
     "layer0.opacity": 1.0
   },
@@ -497,7 +497,7 @@
     "layer0.opacity": 1,
     "layer0.tint": [8, 13, 18],
     "layer0.inner_margin": [0, 24, 12, 24],
-    "content_margin": [0,-15,0,0],
+    "content_margin": [-5,-15,0,0],
     "layer0.draw_center": false
   },
   {
@@ -529,7 +529,7 @@
     "class": "tree_row",
     "layer1.texture": "Neka Theme/assets/tree_highlight.png",
     "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
-    "layer1.inner_margin": [22, 8, 0, 0]
+    "layer1.inner_margin": [20, 8, 0, 0]
   },
 
   {
@@ -998,14 +998,14 @@
     "layer0.texture": "",
     "layer0.tint": [8, 13, 18],
     "layer0.opacity": 1,
-    "content_margin": [15, 10]
+    "content_margin": [10, 0]
   },
 
-  // {
-  //  "class": "status_container",
-  //  "min_size": [100, 0],
-  //  "content_margin": [10, 0, 0, 12],
-  // },
+  {
+   "class": "status_container",
+   "min_size": [0, 0],
+   "content_margin": [12, 10, 12, 10],
+  },
 
   {
     "class": "status_button",
@@ -1333,6 +1333,18 @@
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
+  },
+
+
+    /* Visual settings
+    ===================================================================== */
+
+    // Small status bar
+  {
+    "class": "status_container",
+    "settings": ["neka_theme_small_statusbar"],
+    "content_margin": [12, 6, 12, 6],
   }
+
 
 ]

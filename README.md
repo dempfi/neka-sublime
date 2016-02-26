@@ -1,12 +1,12 @@
 # Neka Theme for Sublime Text 3
-Dark and bright them for Sublime Text.
+Dark and bright theme for Sublime Text 3.
 
 ***
 
 ## Screenshot
 
-![Screenshot](https://www.dropbox.com/s/8wwptwh4ya31cig/neka.jpg?raw=1)
-*The font used in the screenshot is [__Roboto Mono__](https://www.google.com/fonts/specimen/Roboto+Mono).*
+![Screenshot](/neka.png)
+The font used in the screenshot is [__Roboto Mono__](https://www.google.com/fonts/specimen/Roboto+Mono).
 
 ***
 
@@ -40,6 +40,11 @@ You can also install the theme manually:
 ***
 
 ### Settings
+
+For norrow statusbar use
+```json
+"neka_theme_small_statusbar": "true"
+```
 
 If you need some options just open issue and I'll add some settings.
 
