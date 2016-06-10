@@ -6,7 +6,7 @@
 
   {
     "class"        : "sheet_container_control",
-    "layer0.tint"    : [8, 13, 18],
+    "layer0.tint"    : [15, 22, 28],
     "layer0.opacity" : 1
   },
 
@@ -81,7 +81,7 @@
 
   {
     "class": "popup_control",
-    "layer0.tint": [8, 13, 18],
+    "layer0.tint": [15, 22, 28],
     "layer0.opacity": 1.0,
     "content_margin": [0, 0]
   },
@@ -140,19 +140,19 @@
   {
     "class": "overlay_control",
     "layer0.texture": "Neka Theme/assets/overlay-bg.png",
-    "layer0.inner_margin": [31, 20, 31, 40],
+    "layer0.inner_margin": [24, 12, 24, 33],
     "layer0.opacity": 1.0,
     "layer1.texture": "Neka Theme/assets/quick-panel-background.png",
-    "layer1.inner_margin": [0, 0, 0, 0],
+    "layer1.inner_margin": [16, 0, 16, 25],
     "layer1.opacity": 1.0,
-    "content_margin": [31, 30, 31, 40]
+    "content_margin": [14, 22, 14, 26]
   },
 
     // Command Panel list item style (cmd + shift + p)
 
   {
     "class": "mini_quick_panel_row",
-    "layer0.tint": [10, 15, 21, 0],
+    "layer0.tint": [38, 50, 56, 0],
     "layer0.inner_margin": [2, 2, 2, 2],
     "layer0.opacity": 1.0
   },
@@ -162,7 +162,7 @@
   {
     "class": "mini_quick_panel_row",
     "attributes": ["selected"],
-    "layer0.tint": [13, 19, 25]
+    "layer0.tint": [18, 26, 33]
   },
 
     // Quick panel project setting (project manager) (cmd + ctrl + p)
@@ -170,7 +170,7 @@
   {
     "class": "quick_panel",
     "row_padding": [32, 12],
-    "layer0.tint": [8, 13, 18],
+    "layer0.tint": [15, 22, 28],
     "layer0.opacity": 1.0
   },
 
@@ -198,7 +198,7 @@
   {
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
-    "row_padding": [30, 9],
+    "row_padding": [25, 8],
     "layer0.tint": [0, 0, 0, 0],
     "layer0.opacity": 1.0
   },
@@ -208,7 +208,7 @@
   {
     "class": "quick_panel_row",
     "attributes": ["selected"],
-    "layer0.tint": [13, 19, 25]
+    "layer0.tint": [18, 26, 33]
   },
 
     // Panel labels
@@ -259,15 +259,15 @@
   {
     "class": "tabset_control",
     "layer0.opacity": 1.0,
-    "layer0.tint": [8, 13, 18],
+    "layer0.tint": [15, 22, 28],
     "tint_index": 1,
     "layer0.inner_margin": [2, 6],
     "layer0.opacity": 1.0,
-    "content_margin": [10, 0, 10, 0],
+    "content_margin": [12, 0, 8, 0],
     "tab_overlap": 0,
     "tab_width": 180,
     "tab_min_width": 64,
-    "tab_height": 35,
+    "tab_height": 34,
     "mouse_wheel_switch": false
   },
   {
@@ -279,7 +279,7 @@
   {
     "class": "tab_control",
 
-    "layer0.tint": [8, 13, 18],
+    "layer0.tint": [15, 22, 28],
     "layer0.inner_margin": [24, 0],
     "layer0.opacity": 1.0,
     "tint_index": 0,
@@ -292,8 +292,8 @@
     "layer2.inner_margin": [0, 0],
     "layer2.opacity": { "target": 0.0, "speed": 3.0, "interpolation": "smoothstep" },
 
-    "content_margin": [18, 8, 11, 4],
-    "max_margin_trim": 0,
+    "content_margin": [16, 0, 8, 0],
+    "max_margin_trim": 12,
     "hit_test_level": 0.4
   },
 
@@ -494,18 +494,18 @@
 
   {
     "class": "sidebar_container",
-    "layer0.opacity": 1,
-    "layer0.tint": [8, 13, 18],
+    "content_margin": [0, -15, 0, 0],
+    "layer0.draw_center": false,
     "layer0.inner_margin": [0, 24, 12, 24],
-    "content_margin": [-5,-15,0,0],
-    "layer0.draw_center": false
+    "layer0.opacity": 1,
+    "layer0.tint": [15, 22, 28],
   },
   {
     "class": "sidebar_tree",
-    "row_padding": [22, 5],
-    "indent": 10,
+    "row_padding": [20, 5],
+    "indent": 12,
     "indent_offset": 0,
-    "layer0.tint": [8, 13, 18],
+    "layer0.tint": [15, 22, 28],
     "layer0.opacity": 1,
     "indent_top_level": false,
     "dark_content": true
@@ -822,7 +822,7 @@
     // !!!
   {
     "class": "scroll_bar_control",
-    "layer0.tint" : [8, 13, 18],
+    "layer0.tint" : [15, 22, 28],
     "layer0.opacity": 1,
     "layer0.inner_margin": [0, 0],
     "blur": false
@@ -845,7 +845,7 @@
     "class": "scroll_bar_control",
     "attributes": ["horizontal"],
     "layer0.texture": "",
-    "layer0.tint" : [8, 13, 18],
+    "layer0.tint" : [15, 22, 28],
     "layer0.inner_margin": [0,0],
     "blur": false
   },
@@ -867,7 +867,7 @@
   {
     "class": "scroll_corner_control",
     "layer0.texture": "",
-    "layer0.tint":[8, 13, 18],
+    "layer0.tint":[15, 22, 28],
     "layer0.inner_margin": [0,0],
     "layer0.opacity": 1,
     "blur": false
@@ -996,7 +996,7 @@
   {
     "class": "status_bar",
     "layer0.texture": "",
-    "layer0.tint": [8, 13, 18],
+    "layer0.tint": [15, 22, 28],
     "layer0.opacity": 1,
     "content_margin": [10, 0]
   },
@@ -1021,7 +1021,7 @@
   // Status bar panel
   {
     "class": "panel_control",
-    "layer0.tint": [8, 13, 18],
+    "layer0.tint": [15, 22, 28],
     "layer0.inner_margin": [2, 2, 2, 2],
     "layer0.opacity": 1.0,
     "content_margin": [6, 14, 6, 8],
@@ -1064,10 +1064,10 @@
     "parents": [{"class": "overlay_control"}],
     "layer0.texture": "Neka Theme/assets/input_field_border--short.png",
     "layer0.opacity": 1.0,
-    "layer0.inner_margin": [32, 0, 32, 2],
+    "layer0.inner_margin": [30, 0, 30, 0],
     "layer0.draw_center": true,
 
-    "content_margin": [42, 8, 32, 8]
+    "content_margin": [26, 8, 26, 8]
   },
 
     // Textline input oveflow menu
