@@ -5,8 +5,8 @@
   ========================================================================= */
 
   {
-    "class"        : "sheet_container_control",
-    "layer0.tint"    : [15, 22, 28],
+    "class" : "sheet_container_control",
+    "layer0.tint" : [250, 250, 250],
     "layer0.opacity" : 1
   },
 
@@ -18,7 +18,7 @@
   {
     "class": "grid_layout_control",
     "border_size": 0,
-    "border_color": [40,40,40]
+    "border_color": [40, 40, 40]
   },
 
 
@@ -51,10 +51,10 @@
   ========================================================================= */
   {
     "class": "fold_button_control",
-    "layer0.texture": "Neka Theme/assets/dark/unfold.png",
+    "layer0.texture": "Neka Theme/assets/light/unfold.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": 0,
-    "layer1.texture": "Neka Theme/assets/dark/unfold--hover.png",
+    "layer1.texture": "Neka Theme/assets/light/unfold--hover.png",
     "layer1.opacity": 0.0,
     "layer1.inner_margin": 0,
     "content_margin": [8, 6, 8, 6]
@@ -70,8 +70,8 @@
   {
     "class": "fold_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "Neka Theme/assets/dark/fold.png",
-    "layer1.texture": "Neka Theme/assets/dark/fold--hover.png"
+    "layer0.texture": "Neka Theme/assets/light/fold.png",
+    "layer1.texture": "Neka Theme/assets/light/fold--hover.png"
   },
 
 
@@ -81,7 +81,7 @@
 
   {
     "class": "popup_control",
-    "layer0.tint": [15, 22, 28],
+    "layer0.tint": [250, 250, 250],
     "layer0.opacity": 1.0,
     "content_margin": [0, 0]
   },
@@ -95,10 +95,10 @@
 
   {
     "class": "auto_complete_label",
-    "fg": [83, 105, 128],
-    "match_fg": [255, 231, 146],
-    "selected_fg": [255, 255, 255],
-    "selected_match_fg": [255, 231, 146]
+    "fg": [154, 166, 181],
+    "match_fg": [214, 176, 124],
+    "selected_fg": [92, 103, 115],
+    "selected_match_fg": [214, 176, 124]
   },
 
   {
@@ -128,7 +128,7 @@
 
   {
     "class": "tool_tip_label_control",
-    "color": [83, 105, 128]
+    "color": [154, 166, 181]
   },
 
 
@@ -139,10 +139,10 @@
   // Command Panel
   {
     "class": "overlay_control",
-    "layer0.texture": "Neka Theme/assets/dark/overlay-bg.png",
+    "layer0.texture": "Neka Theme/assets/light/overlay-bg.png",
     "layer0.inner_margin": [24, 12, 24, 33],
     "layer0.opacity": 1.0,
-    "layer1.texture": "Neka Theme/assets/dark/quick-panel-background.png",
+    "layer1.texture": "Neka Theme/assets/light/quick-panel-background.png",
     "layer1.inner_margin": [16, 0, 16, 25],
     "layer1.opacity": 1.0,
     "content_margin": [14, 22, 14, 26]
@@ -162,7 +162,7 @@
   {
     "class": "mini_quick_panel_row",
     "attributes": ["selected"],
-    "layer0.tint": [18, 26, 33]
+    "layer0.tint": [237, 240, 242]
   },
 
     // Quick panel project setting (project manager) (cmd + ctrl + p)
@@ -170,7 +170,7 @@
   {
     "class": "quick_panel",
     "row_padding": [32, 12],
-    "layer0.tint": [15, 22, 28],
+    "layer0.tint": [250, 250, 250],
     "layer0.opacity": 1.0
   },
 
@@ -208,17 +208,17 @@
   {
     "class": "quick_panel_row",
     "attributes": ["selected"],
-    "layer0.tint": [18, 26, 33]
+    "layer0.tint": [237, 240, 242]
   },
 
     // Panel labels
 
   {
     "class": "quick_panel_label",
-    "fg": [204, 230, 255],
-    "match_fg": [255, 235, 184],
+    "fg": [92, 103, 115],
+    "match_fg": [214, 176, 124],
     "selected_fg": [94, 235, 184],
-    "selected_match_fg": [255, 235, 184]
+    "selected_match_fg": [214, 176, 124]
   },
 
     // Panel labels
@@ -226,28 +226,29 @@
   {
     "class": "quick_panel_label",
     "parents": [{"class": "overlay_control"}],
-    "fg": [176, 190, 197, 255],
-    "match_fg": [255, 231, 146, 255],
-    "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [255, 231, 146, 255]
+    "fg": [154, 166, 181],
+    "match_fg": [214, 176, 124],
+    "selected_fg": [92, 103, 115],
+    "selected_match_fg": [214, 176, 124]
   },
 
     // Panels sublabels
 
   {
     "class": "quick_panel_path_label",
-    "fg": [83, 105, 128],
-    "match_fg": [255, 231, 146, 255],
-    "selected_fg": [83, 105, 128],
-    "selected_match_fg": [255, 231, 146, 255]
+    "fg": [176, 190, 197],
+    "match_fg": [214, 176, 124],
+    "selected_fg": [154, 166, 181],
+    "selected_match_fg": [214, 176, 124]
   },
 
     // Panels data / score
 
   {
     "class": "quick_panel_score_label",
-    "fg": [83, 105, 128],
-    "selected_fg": [83, 105, 128]
+    "fg": [154, 166, 181],
+    "selected_fg": [154, 166, 181],
+    "font.bold": true
   },
 
 
@@ -259,7 +260,7 @@
   {
     "class": "tabset_control",
     "layer0.opacity": 1.0,
-    "layer0.tint": [15, 22, 28],
+    "layer0.tint": [250, 250, 250],
     "tint_index": 1,
     "layer0.inner_margin": [2, 6],
     "layer0.opacity": 1.0,
@@ -267,7 +268,7 @@
     "tab_overlap": 0,
     "tab_width": 180,
     "tab_min_width": 64,
-    "tab_height": 34,
+    "tab_height": 32,
     "mouse_wheel_switch": false
   },
   {
@@ -279,12 +280,12 @@
   {
     "class": "tab_control",
 
-    "layer0.tint": [15, 22, 28],
+    "layer0.tint": [250, 250, 250],
     "layer0.inner_margin": [24, 0],
     "layer0.opacity": 1.0,
     "tint_index": 0,
 
-    "layer1.texture": "Neka Theme/assets/dark/tab_current.png",
+    "layer1.texture": "Neka Theme/assets/light/tab_current.png",
     "layer1.inner_margin": [0, 0],
     "layer1.opacity": 0.0,
 
@@ -292,7 +293,7 @@
     "layer2.inner_margin": [0, 0],
     "layer2.opacity": { "target": 0.0, "speed": 3.0, "interpolation": "smoothstep" },
 
-    "content_margin": [16, 0, 8, 0],
+    "content_margin": [14, 2, 8, 0],
     "max_margin_trim": 12,
     "hit_test_level": 0.4
   },
@@ -325,12 +326,13 @@
 
   {
     "class": "tab_label",
-    "fg": [83, 105, 128],
-    "shadow_color": [255, 255, 255, 0],
+    "fg": [154, 166, 181],
+    "shadow_color": [0, 0, 0, 0],
     "shadow_offset": [0, 0],
-    "font.size": 11,
+    "font.size": 12,
     "font.italic": false,
-    "font.bold": false
+    "font.bold": false,
+    "font.face": "-apple-system"
   },
 
     // Tab selected label color
@@ -338,8 +340,8 @@
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "fg": [255, 255, 255, 255],
-    "shadow_color": [255, 255, 255, 0],
+    "fg": [92, 103, 115],
+    "shadow_color": [0, 0, 0, 0],
     "shadow_offset": [0, 0]
   },
 
@@ -355,20 +357,20 @@
     "content_margin": [0, 0],
 
     // Close Icon
-    "layer0.texture": "Neka Theme/assets/dark/close.png",
+    "layer0.texture": "Neka Theme/assets/light/close.png",
     "layer0.opacity": 1,
     "layer0.inner_margin": 0,
 
     // Close Icon Hover
-    "layer1.texture": "Neka Theme/assets/dark/close--hover.png",
+    "layer1.texture": "Neka Theme/assets/light/close--hover.png",
     "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
 
     // Dirty Icon
-    "layer2.texture": "Neka Theme/assets/dark/dirty.png",
+    "layer2.texture": "Neka Theme/assets/light/dirty.png",
     "layer2.inner_margin": 0,
 
     // Dirty Icon Hover
-    "layer3.texture": "Neka Theme/assets/dark/dirty--hover.png",
+    "layer3.texture": "Neka Theme/assets/light/dirty--hover.png",
     "layer3.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
   },
 
@@ -438,10 +440,10 @@
   {
     "class": "scroll_tabs_left_button",
     "content_margin": [12, 7],
-    "layer0.texture": "Neka Theme/assets/dark/arrow_left.png",
+    "layer0.texture": "Neka Theme/assets/light/arrow_left.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": 0,
-    "layer1.texture": "Neka Theme/assets/dark/arrow_left--hover.png",
+    "layer1.texture": "Neka Theme/assets/light/arrow_left--hover.png",
     "layer1.opacity": 0.0,
     "layer1.inner_margin": 0,
   },
@@ -455,10 +457,10 @@
   {
     "class": "scroll_tabs_right_button",
     "content_margin": [12, 7],
-    "layer0.texture": "Neka Theme/assets/dark/arrow_right.png",
+    "layer0.texture": "Neka Theme/assets/light/arrow_right.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": 0,
-    "layer1.texture": "Neka Theme/assets/dark/arrow_right--hover.png",
+    "layer1.texture": "Neka Theme/assets/light/arrow_right--hover.png",
     "layer1.opacity": 0.0,
     "layer1.inner_margin": 0,
   },
@@ -472,10 +474,10 @@
   {
     "class": "show_tabs_dropdown_button",
     "content_margin": [12, 12],
-    "layer0.texture": "Neka Theme/assets/dark/overflow_menu.png",
+    "layer0.texture": "Neka Theme/assets/light/overflow_menu.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": 0,
-    "layer1.texture": "Neka Theme/assets/dark/overflow_menu--hover.png",
+    "layer1.texture": "Neka Theme/assets/light/overflow_menu--hover.png",
     "layer1.opacity": 0.0,
     "layer1.inner_margin": 0,
   },
@@ -498,26 +500,18 @@
     "layer0.draw_center": false,
     "layer0.inner_margin": [0, 24, 12, 24],
     "layer0.opacity": 1,
-    "layer0.tint": [15, 22, 28],
+    "layer0.tint": [250, 250, 250],
   },
+
   {
     "class": "sidebar_tree",
     "row_padding": [20, 5],
     "indent": 12,
     "indent_offset": 0,
-    "layer0.tint": [15, 22, 28],
+    "layer0.tint": [250, 250, 250],
     "layer0.opacity": 1,
     "indent_top_level": false,
-    "dark_content": true
-  },
-
-  {
-    "class": "sidebar_heading",
-    "color": [207, 216, 220],
-    "font.bold": false,
-    "font.size": 12,
-    "shadow_color": [250, 250, 250, 0],
-    "shadow_offset": [0, 0],
+    "dark_content": false
   },
 
   {
@@ -527,7 +521,7 @@
 
   {
     "class": "tree_row",
-    "layer1.texture": "Neka Theme/assets/dark/tree_highlight.png",
+    "layer1.texture": "Neka Theme/assets/light/tree_highlight.png",
     "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
     "layer1.inner_margin": [20, 8, 0, 0]
   },
@@ -540,21 +534,23 @@
 
   {
     "class": "sidebar_label",
-    "color": [83, 105, 128],
+    "color": [154, 166, 181],
     "shadow_color": [0, 0, 0],
-    "shadow_offset": [0, 0]
+    "shadow_offset": [0, 0],
+    "font.face": "-apple-system",
+    "font.size": 12
   },
 
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["hover"]}],
-    "color": [204, 230, 255]
+    "color": [92, 103, 115]
   },
 
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    "color": [255, 255, 255],
+    "color": [92, 103, 115],
     "shadow_color": [0, 0, 0],
     "shadow_offset": [0, 0]
   },
@@ -562,7 +558,8 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-    "color": [83, 105, 128],
+    "color": [154, 166, 181],
+    "font.face": "-apple-system",
     "font.bold": false
   },
 
@@ -576,13 +573,15 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-    "color": [204, 230, 255]
+    "color": [92, 103, 115],
+    "font.face": "-apple-system"
   },
 
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-    "color": [204, 230, 255]
+    "color": [92, 103, 115],
+    "font.face": "-apple-system"
   },
 
   {
@@ -595,13 +594,13 @@
   // {
   //  "class": "sidebar_label",
   //  "parents": [{"class": "tree_row", "attributes": ["expanded", "selected"]}],
-  //  "color": [255, 255, 255]
+  //  "color": [92, 103, 115]
   // },
 
   {
     "class": "sidebar_label",
     "attributes": ["transient"],
-    "font.italic": false
+    "font.italic": false,
   },
 
     // File icons and folder
@@ -630,11 +629,11 @@
     "content_margin": [9, 9],
     "layer0.tint": [38, 50, 56],
     "layer0.opacity": 0,
-    "layer1.texture": "Neka Theme/assets/dark/folder.png",
+    "layer1.texture": "Neka Theme/assets/light/folder.png",
     "layer1.opacity": 1,
-    "layer2.texture": "Neka Theme/assets/dark/folder--hover.png",
+    "layer2.texture": "Neka Theme/assets/light/folder--hover.png",
     "layer2.opacity": 0.0,
-    "layer3.texture": "Neka Theme/assets/dark/folder_opened.png",
+    "layer3.texture": "Neka Theme/assets/light/folder_opened.png",
     "layer3.opacity": 0.0,
   },
 
@@ -659,19 +658,19 @@
     "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
     "layer3.texture": {
     "keyframes": [
-       "Neka Theme/assets/dark/folder_opened--hover-0.png",
-       "Neka Theme/assets/dark/folder_opened--hover-1.png",
-       "Neka Theme/assets/dark/folder_opened--hover-2.png",
-       "Neka Theme/assets/dark/folder_opened--hover-3.png",
-       "Neka Theme/assets/dark/folder_opened--hover-4.png",
-       "Neka Theme/assets/dark/folder_opened--hover-5.png",
-       "Neka Theme/assets/dark/folder_opened--hover-5.png",
-       "Neka Theme/assets/dark/folder_opened--hover-5.png",
-       "Neka Theme/assets/dark/folder_opened--hover-6.png",
-       "Neka Theme/assets/dark/folder_opened--hover-6.png",
-       "Neka Theme/assets/dark/folder_opened--hover-6.png",
-       "Neka Theme/assets/dark/folder_opened--hover-6.png",
-       "Neka Theme/assets/dark/folder_opened--hover-7.png",
+       "Neka Theme/assets/light/folder_opened--hover-0.png",
+       "Neka Theme/assets/light/folder_opened--hover-1.png",
+       "Neka Theme/assets/light/folder_opened--hover-2.png",
+       "Neka Theme/assets/light/folder_opened--hover-3.png",
+       "Neka Theme/assets/light/folder_opened--hover-4.png",
+       "Neka Theme/assets/light/folder_opened--hover-5.png",
+       "Neka Theme/assets/light/folder_opened--hover-5.png",
+       "Neka Theme/assets/light/folder_opened--hover-5.png",
+       "Neka Theme/assets/light/folder_opened--hover-6.png",
+       "Neka Theme/assets/light/folder_opened--hover-6.png",
+       "Neka Theme/assets/light/folder_opened--hover-6.png",
+       "Neka Theme/assets/light/folder_opened--hover-6.png",
+       "Neka Theme/assets/light/folder_opened--hover-7.png",
     ],
     "loop": false,
     "frame_time": 0.020,
@@ -684,25 +683,25 @@
   {
     "class": "icon_folder",
     "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
-    "layer1.texture": "Neka Theme/assets/dark/folder--hover.png",
+    "layer1.texture": "Neka Theme/assets/light/folder--hover.png",
   },
 
   {
     "class": "icon_folder_loading",
     "layer1.texture": {
      "keyframes": [
-       "Neka Theme/assets/dark/spinner11.png",
-       "Neka Theme/assets/dark/spinner10.png",
-       "Neka Theme/assets/dark/spinner9.png",
-       "Neka Theme/assets/dark/spinner8.png",
-       "Neka Theme/assets/dark/spinner7.png",
-       "Neka Theme/assets/dark/spinner6.png",
-       "Neka Theme/assets/dark/spinner5.png",
-       "Neka Theme/assets/dark/spinner4.png",
-       "Neka Theme/assets/dark/spinner3.png",
-       "Neka Theme/assets/dark/spinner2.png",
-       "Neka Theme/assets/dark/spinner1.png",
-       "Neka Theme/assets/dark/spinner.png",
+       "Neka Theme/assets/light/spinner11.png",
+       "Neka Theme/assets/light/spinner10.png",
+       "Neka Theme/assets/light/spinner9.png",
+       "Neka Theme/assets/light/spinner8.png",
+       "Neka Theme/assets/light/spinner7.png",
+       "Neka Theme/assets/light/spinner6.png",
+       "Neka Theme/assets/light/spinner5.png",
+       "Neka Theme/assets/light/spinner4.png",
+       "Neka Theme/assets/light/spinner3.png",
+       "Neka Theme/assets/light/spinner2.png",
+       "Neka Theme/assets/light/spinner1.png",
+       "Neka Theme/assets/light/spinner.png",
      ],
      "loop": true,
      "frame_time": 0.075,
@@ -715,7 +714,7 @@
     // Symlink folder icon
   {
     "class": "icon_folder_dup",
-    "layer0.texture": "Neka Theme/assets/dark/symlink_folder.png",
+    "layer0.texture": "Neka Theme/assets/light/symlink_folder.png",
     "layer0.opacity": 1.0,
     "content_margin": [9, 9],
   },
@@ -723,23 +722,23 @@
   {
     "class": "icon_folder_dup",
     "parents": [{ "class": "tree_row", "attributes": ["hover"]}],
-    "layer0.texture": "Neka Theme/assets/dark/symlink_folder--hover.png"
+    "layer0.texture": "Neka Theme/assets/light/symlink_folder--hover.png"
   },
 
   {
     "class": "icon_folder_dup",
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
-    "layer0.texture": "Neka Theme/assets/dark/symlink_folder--hover.png"
+    "layer0.texture": "Neka Theme/assets/light/symlink_folder--hover.png"
   },
 
     // Hidden arrow icon before folder
 
   {
     "class": "disclosure_button_control",
-    "layer0.texture": "Neka Theme/assets/dark/folder.png",
+    "layer0.texture": "Neka Theme/assets/light/folder.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": 0,
-    "layer1.texture": "Neka Theme/assets/dark/folder--hover.png",
+    "layer1.texture": "Neka Theme/assets/light/folder--hover.png",
     "layer1.opacity": 0.0,
     "layer1.inner_margin": 0,
     "content_margin": [0, 0, 0, 0]
@@ -755,12 +754,12 @@
   {
     "class": "disclosure_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "Neka Theme/assets/dark/folder_opened.png",
+    "layer0.texture": "Neka Theme/assets/light/folder_opened.png",
   },
 
   {
     "class": "tree_row",
-    "layer0.texture": "Neka Theme/assets/dark/tree_highlight.png",
+    "layer0.texture": "Neka Theme/assets/light/tree_highlight.png",
     "layer0.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
     "layer0.inner_margin": [22, 8, 0, 0]
   },
@@ -777,12 +776,12 @@
     "content_margin": [8, 8],
 
     // Default Close icon
-    "layer0.texture": "Neka Theme/assets/dark/close.png",
+    "layer0.texture": "Neka Theme/assets/light/close.png",
     "layer0.opacity": { "target": 0.0, "speed": 7.0, "interpolation": "smoothstep" },
     "layer0.inner_margin": [0,0],
 
     // Hover close icon
-    "layer1.texture": "Neka Theme/assets/dark/close--hover.png",
+    "layer1.texture": "Neka Theme/assets/light/close--hover.png",
     "layer1.opacity": 0,
     "layer1.inner_margin": [0,0],
   },
@@ -794,7 +793,7 @@
     "class": "close_button",
     "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
     // Default Close icon
-    "layer0.texture": "Neka Theme/assets/dark/close.png",
+    "layer0.texture": "Neka Theme/assets/light/close.png",
     "layer0.opacity": { "target": 1.0, "speed": 7.0, "interpolation": "smoothstep" },
     "layer0.inner_margin": [0,0],
   },
@@ -802,7 +801,7 @@
   {
     "class": "close_button",
     "attributes": ["dirty"],
-    "layer0.texture": "Neka Theme/assets/dark/dirty--hover.png",
+    "layer0.texture": "Neka Theme/assets/light/dirty--hover.png",
     "layer0.opacity": 1.0
   },
 
@@ -822,7 +821,7 @@
     // !!!
   {
     "class": "scroll_bar_control",
-    "layer0.tint" : [15, 22, 28],
+    "layer0.tint" : [250, 250, 250],
     "layer0.opacity": 1,
     "layer0.inner_margin": [0, 0],
     "blur": false
@@ -845,7 +844,7 @@
     "class": "scroll_bar_control",
     "attributes": ["horizontal"],
     "layer0.texture": "",
-    "layer0.tint" : [15, 22, 28],
+    "layer0.tint" : [250, 250, 250],
     "layer0.inner_margin": [0,0],
     "blur": false
   },
@@ -867,7 +866,7 @@
   {
     "class": "scroll_corner_control",
     "layer0.texture": "",
-    "layer0.tint":[15, 22, 28],
+    "layer0.tint":[250, 250, 250],
     "layer0.inner_margin": [0,0],
     "layer0.opacity": 1,
     "blur": false
@@ -927,7 +926,7 @@
   {
     "class": "scroll_bar_control",
     "settings": ["overlay_scroll_bars"],
-    "layer0.tint": [28,31,38],
+    "layer0.tint": [28, 31, 38],
     "layer0.inner_margin": [0,5],
     "blur": false
   },
@@ -976,10 +975,11 @@
 
   {
     "class": "label_control",
-    "color": [83, 105, 128],
+    "color": [154, 166, 181],
     "shadow_color": [0, 0, 0, 0],
     "shadow_offset": [0, 0],
-    "font.bold": false
+    "font.bold": false,
+    "font.face": "-apple-system"
   },
 
     // Status bar labels
@@ -987,8 +987,9 @@
   {
     "class": "label_control",
     "parents": [{"class": "status_bar"}],
-    "color": [83, 105, 128],
-    "font.bold": false
+    "color": [154, 166, 181],
+    "font.bold": false,
+    "font.face": "-apple-system"
   },
 
     // Text field labels
@@ -996,7 +997,7 @@
   {
     "class": "status_bar",
     "layer0.texture": "",
-    "layer0.tint": [15, 22, 28],
+    "layer0.tint": [250, 250, 250],
     "layer0.opacity": 1,
     "content_margin": [10, 0]
   },
@@ -1021,7 +1022,7 @@
   // Status bar panel
   {
     "class": "panel_control",
-    "layer0.tint": [15, 22, 28],
+    "layer0.tint": [250, 250, 250],
     "layer0.inner_margin": [2, 2, 2, 2],
     "layer0.opacity": 1.0,
     "content_margin": [6, 14, 6, 8],
@@ -1031,9 +1032,9 @@
 
   {
     "class": "panel_close_button",
-    "layer0.texture": "Neka Theme/assets/dark/close.png",
+    "layer0.texture": "Neka Theme/assets/light/close.png",
     "layer0.opacity": 0.6,
-    "layer1.texture": "Neka Theme/assets/dark/close--hover.png",
+    "layer1.texture": "Neka Theme/assets/light/close--hover.png",
     "layer1.opacity": 0.0,
     "content_margin": [0, 0] // 8,8 to show
   },
@@ -1049,7 +1050,7 @@
 
   {
     "class": "text_line_control",
-    "layer0.texture": "Neka Theme/assets/dark/input_field_border.png",
+    "layer0.texture": "Neka Theme/assets/light/input_field_border.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [20, 5, 20, 5],
     "tint_index": 1,
@@ -1062,7 +1063,7 @@
   {
     "class": "text_line_control",
     "parents": [{"class": "overlay_control"}],
-    "layer0.texture": "Neka Theme/assets/dark/input_field_border--short.png",
+    "layer0.texture": "Neka Theme/assets/light/input_field_border--short.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [30, 0, 30, 0],
     "layer0.draw_center": true,
@@ -1074,10 +1075,10 @@
   {
     "class": "dropdown_button_control",
     "content_margin": [12, 12],
-    "layer0.texture": "Neka Theme/assets/dark/overflow_menu.png",
+    "layer0.texture": "Neka Theme/assets/light/overflow_menu.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [0, 0],
-    "layer1.texture": "Neka Theme/assets/dark/overflow_menu--hover.png",
+    "layer1.texture": "Neka Theme/assets/light/overflow_menu--hover.png",
     "layer1.opacity": 0.0,
     "layer1.inner_margin": [0, 0],
   },
@@ -1098,13 +1099,15 @@
   {
     "class": "label_control",
     "parents": [{"class": "button_control"}],
-    "color":  [83, 105, 128],
-    "font.bold": false
+    "color":  [154, 166, 181],
+    "font.bold": false,
+    "font.face": "-apple-system"
   },
 
   {
     "class": "button_control",
-    "color":  [83, 105, 128],
+    "color":  [154, 166, 181],
+    "font.face": "-apple-system",
     "content_margin": [6, 12],
     "min_size": [75, 0],
     "layer0.tint": [11, 16, 21, 0],
@@ -1113,7 +1116,7 @@
     "layer1.tint": [11, 16, 21, 0],
     "layer1.opacity": 0.0,
     "layer1.inner_margin": [6, 6],
-    "layer2.texture": "Neka Theme/assets/dark/button--hover.png",
+    "layer2.texture": "Neka Theme/assets/light/button--hover.png",
     "layer2.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
     "layer2.inner_margin": [8, 0]
   },
@@ -1144,7 +1147,7 @@
     "layer0.tint": [38, 50, 56],
     "layer0.inner_margin": [6, 6],
     "layer0.opacity": 0.0,
-    "layer2.tint": [255, 255, 255],
+    "layer2.tint": [92, 103, 115],
     "layer2.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
     "content_margin": [10, 6]
   },
@@ -1156,9 +1159,9 @@
     // Regex Icon
   {
     "class": "icon_regex",
-    "layer0.texture": "Neka Theme/assets/dark/regex--hover.png",
+    "layer0.texture": "Neka Theme/assets/light/regex--hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Neka Theme/assets/dark/regex.png",
+    "layer1.texture": "Neka Theme/assets/light/regex.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -1174,9 +1177,9 @@
 
   {
     "class": "icon_case",
-    "layer0.texture": "Neka Theme/assets/dark/matchcase--hover.png",
+    "layer0.texture": "Neka Theme/assets/light/matchcase--hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Neka Theme/assets/dark/matchcase.png",
+    "layer1.texture": "Neka Theme/assets/light/matchcase.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -1192,9 +1195,9 @@
 
   {
     "class": "icon_whole_word",
-    "layer0.texture": "Neka Theme/assets/dark/word--hover.png",
+    "layer0.texture": "Neka Theme/assets/light/word--hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Neka Theme/assets/dark/word.png",
+    "layer1.texture": "Neka Theme/assets/light/word.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -1211,9 +1214,9 @@
 
   {
     "class": "icon_wrap",
-    "layer0.texture": "Neka Theme/assets/dark/wrap--hover.png",
+    "layer0.texture": "Neka Theme/assets/light/wrap--hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Neka Theme/assets/dark/wrap.png",
+    "layer1.texture": "Neka Theme/assets/light/wrap.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -1229,9 +1232,9 @@
 
   {
     "class": "icon_in_selection",
-    "layer0.texture": "Neka Theme/assets/dark/inselection--hover.png",
+    "layer0.texture": "Neka Theme/assets/light/inselection--hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Neka Theme/assets/dark/inselection.png",
+    "layer1.texture": "Neka Theme/assets/light/inselection.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12,12]
   },
@@ -1248,9 +1251,9 @@
 
   {
     "class": "icon_highlight",
-    "layer0.texture": "Neka Theme/assets/dark/highlight--hover.png",
+    "layer0.texture": "Neka Theme/assets/light/highlight--hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Neka Theme/assets/dark/highlight.png",
+    "layer1.texture": "Neka Theme/assets/light/highlight.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -1266,9 +1269,9 @@
 
   {
     "class": "icon_preserve_case",
-    "layer0.texture": "Neka Theme/assets/dark/replace_preserve_case--hover.png",
+    "layer0.texture": "Neka Theme/assets/light/replace_preserve_case--hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Neka Theme/assets/dark/replace_preserve_case.png",
+    "layer1.texture": "Neka Theme/assets/light/replace_preserve_case.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -1284,9 +1287,9 @@
 
   {
     "class": "icon_context",
-    "layer0.texture": "Neka Theme/assets/dark/context--hover.png",
+    "layer0.texture": "Neka Theme/assets/light/context--hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Neka Theme/assets/dark/context.png",
+    "layer1.texture": "Neka Theme/assets/light/context.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -1303,9 +1306,9 @@
 
   {
     "class": "icon_use_buffer",
-    "layer0.texture": "Neka Theme/assets/dark/buffer--hover.png",
+    "layer0.texture": "Neka Theme/assets/light/buffer--hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Neka Theme/assets/dark/buffer.png",
+    "layer1.texture": "Neka Theme/assets/light/buffer.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -1321,9 +1324,9 @@
 
   {
     "class": "icon_reverse",
-    "layer0.texture": "Neka Theme/assets/dark/reverse--hover.png",
+    "layer0.texture": "Neka Theme/assets/light/reverse--hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Neka Theme/assets/dark/reverse.png",
+    "layer1.texture": "Neka Theme/assets/light/reverse.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
