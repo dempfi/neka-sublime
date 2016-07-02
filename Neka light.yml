@@ -12,8 +12,8 @@ settings:
 - settings:
     activeGuide: '#B3B2B1'
     background: &bg '#FAFAFA'
-    caret: &constant '#CC7AB1'
-    findHighlight: *constant
+    caret: '#E62E2E'
+    findHighlight: &constant '#A37ACC'
     findHighlightForeground: &white '#ffffff'
     foreground: &fg '#5C6773'
     guide: &gutter '#D9D8D7'
@@ -51,12 +51,12 @@ settings:
 - name: Tag
   scope: entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter
   settings:
-    foreground: &tag '#3CADD7'
+    foreground: &tag '#41A6D9'
 
 - name: Function, Special Method, Block Level
   scope: entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level
   settings:
-    foreground: &function '#D9B077'
+    foreground: &function '#F29718'
 
 - name: Other Variable, String Link
   scope: support.other.variable, string.other.link
@@ -72,7 +72,7 @@ settings:
   scope: string, keyword.other.template, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js
   settings:
     fontStyle: normal
-    foreground: &string '#8FB324'
+    foreground: &string '#86B300'
 
 - name: Class, Support
   scope: entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter
@@ -105,7 +105,7 @@ settings:
 - name: Html punctuations tags
   scope: punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag
   settings:
-    foreground: &tag_punc '#266b85' # darker verson of tag
+    foreground: &tag_punc '#41A6D990' # opacity of tag verson of &tag
 
 - name: Attributes
   scope: entity.other.attribute-name
@@ -130,7 +130,7 @@ settings:
 - name: Regular Expressions and Escape Characters
   scope: string.regexp, constant.character.escape
   settings:
-    foreground: &regexp '#73BF8C'
+    foreground: &regexp '#4DBF99'
 
 - name: URL
   scope: '*url*, *link*, *uri*'
@@ -152,7 +152,7 @@ settings:
   scope: tag.decorator.js entity.name.tag.js, tag.decorator.js punctuation.definition.tag.js
   settings:
     fontStyle: italic
-    foreground: &es_spec '#F29718'
+    foreground: &es_spec '#CCA37A'
 
 - name: ES7 Bind Operator
   scope: source.js constant.other.object.key.js string.unquoted.label.js

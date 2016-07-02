@@ -12,8 +12,8 @@ settings:
 - settings:
     activeGuide: '#314559'
     background: &bg '#0F161C'
-    caret: &constant '#FFE792'
-    findHighlight: *constant
+    caret: '#F29718'
+    findHighlight: &constant '#FFE792'
     findHighlightForeground: '#00000050'
     foreground: &fg '#F2EDDA'
     guide: '#2D3640'
@@ -41,7 +41,7 @@ settings:
 - name: Keyword, Storage
   scope: keyword, storage.type, storage.modifier
   settings:
-    foreground: &keyword '#F57542'
+    foreground: &keyword '#FF7733'
 
 - name: Operator, Misc
   scope: constant.other.color, meta.tag, punctuation.separator.inheritance.php, punctuation.section.embedded, keyword.other.substitution
@@ -51,7 +51,7 @@ settings:
 - name: Tag
   scope: entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter
   settings:
-    foreground: &tag '#3CADD7'
+    foreground: &tag '#36A3D9'
 
 - name: Function, Special Method, Block Level
   scope: entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level
@@ -72,7 +72,7 @@ settings:
   scope: string, keyword.other.template, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js
   settings:
     fontStyle: normal
-    foreground: &string '#BCCC52'
+    foreground: &string '#B8CC52'
 
 - name: Class, Support
   scope: entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter
@@ -105,7 +105,7 @@ settings:
 - name: Html punctuations tags
   scope: punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag
   settings:
-    foreground: &tag_punc '#266b85' # darker verson of tag
+    foreground: &tag_punc '#36A3D990' # darker version of tag
 
 - name: Attributes
   scope: entity.other.attribute-name
@@ -130,7 +130,7 @@ settings:
 - name: Regular Expressions and Escape Characters
   scope: string.regexp, constant.character.escape
   settings:
-    foreground: &regexp '#D8EFC6'
+    foreground: &regexp '#95E6CB'
 
 - name: URL
   scope: '*url*, *link*, *uri*'

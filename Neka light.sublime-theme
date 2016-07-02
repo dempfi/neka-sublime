@@ -120,15 +120,17 @@
 
   {
     "class": "tool_tip_control",
-    "layer0.tint": [15, 22, 29],
-    "layer0.inner_margin": [1, 1],
+    "layer0.tint": [250, 250, 250],
+    "layer0.inner_margin": [0, 0],
     "layer0.opacity": 1.0,
-    "content_margin": [20, 10]
+    "content_margin": [10, 6]
   },
 
   {
     "class": "tool_tip_label_control",
-    "color": [130, 142, 153]
+    "color": [130, 142, 153],
+    "font.face": "Roboto mono",
+    "font.size": 12
   },
 
 
@@ -148,7 +150,7 @@
     "content_margin": [14, 22, 14, 26]
   },
 
-    // Command Panel list item style (cmd + shift + p)
+  // Command Panel list item style (cmd + shift + p)
 
   {
     "class": "mini_quick_panel_row",
@@ -157,7 +159,7 @@
     "layer0.opacity": 1.0
   },
 
-    // Command Panel selected list item style (cmd + p)
+  // Command Panel selected list item style (cmd + p)
 
   {
     "class": "mini_quick_panel_row",
@@ -165,7 +167,7 @@
     "layer0.tint": [237, 240, 242]
   },
 
-    // Quick panel project setting (project manager) (cmd + ctrl + p)
+  // Quick panel project setting (project manager) (cmd + ctrl + p)
 
   {
     "class": "quick_panel",
@@ -174,7 +176,7 @@
     "layer0.opacity": 1.0
   },
 
-    // Quick Panel row default style (project manager)
+  // Quick Panel row default style (project manager)
 
   {
     "class": "quick_panel_row",
@@ -184,7 +186,7 @@
     "layer0.opacity": 1.0
   },
 
-    // Row panel style inside comman panel (cmd + shift + p)
+  // Row panel style inside comman panel (cmd + shift + p)
 
   {
     "class": "quick_panel_row",
@@ -193,7 +195,7 @@
     "layer0.opacity": 1.0
   },
 
-    // Quick panel (project) style inside overlay_control (cmd + shift + p)
+  // Quick panel (project) style inside overlay_control (cmd + shift + p)
 
   {
     "class": "quick_panel",
@@ -203,7 +205,7 @@
     "layer0.opacity": 1.0
   },
 
-    // Quick Panel selected list item style
+  // Quick Panel selected list item style
 
   {
     "class": "quick_panel_row",
@@ -211,7 +213,7 @@
     "layer0.tint": [237, 240, 242]
   },
 
-    // Panel labels
+  // Panel labels
 
   {
     "class": "quick_panel_label",
@@ -221,7 +223,7 @@
     "selected_match_fg": [214, 176, 124]
   },
 
-    // Panel labels
+  // Panel labels
 
   {
     "class": "quick_panel_label",
@@ -232,7 +234,7 @@
     "selected_match_fg": [214, 176, 124]
   },
 
-    // Panels sublabels
+  // Panels sublabels
 
   {
     "class": "quick_panel_path_label",
@@ -242,7 +244,7 @@
     "selected_match_fg": [214, 176, 124]
   },
 
-    // Panels data / score
+  // Panels data / score
 
   {
     "class": "quick_panel_score_label",
@@ -275,7 +277,7 @@
     "settings": ["mouse_wheel_switches_tabs", "!enable_tab_scrolling"],
     "mouse_wheel_switch": true
   },
-    // Tabs
+  // Tabs
   {
     "class": "tab_control",
 
@@ -297,7 +299,7 @@
     "hit_test_level": 0.9
   },
 
-    // Selected current tab
+  // Selected current tab
 
   {
     "class": "tab_control", "attributes": ["selected"],
@@ -305,7 +307,7 @@
     "layer2.opacity": 0.0
   },
 
-    // Hovered current tab
+  // Hovered current tab
 
   {
     "class": "tab_control", "attributes": ["hover"],
@@ -313,7 +315,7 @@
     "layer2.opacity": { "target": 0.4, "speed": 5.0, "interpolation": "smoothstep" }
   },
 
-    // Selected current tab
+  // Selected current tab
 
   {
     "class": "tab_control", "attributes": ["selected","hover"],
@@ -321,7 +323,7 @@
     "layer2.opacity": { "target": 0.4, "speed": 5.0, "interpolation": "smoothstep" }
   },
 
-    // Tab Labels
+  // Tab Labels
 
   {
     "class": "tab_label",
@@ -334,7 +336,7 @@
     "font.face": "Roboto mono"
   },
 
-    // Tab selected label color
+  // Tab selected label color
 
   {
     "class": "tab_label",
@@ -350,36 +352,36 @@
     "font.italic": true
   },
 
-    // Tab Close Buttons
+  // Tab Close Buttons
   {
     "class": "tab_close_button",
     "content_margin": [0, 0],
 
-    // Close Icon
+  // Close Icon
     "layer0.texture": "Neka Theme/assets/light/close.png",
     "layer0.opacity": 1,
     "layer0.inner_margin": 0,
 
-    // Close Icon Hover
+  // Close Icon Hover
     "layer1.texture": "Neka Theme/assets/light/close--hover.png",
     "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
 
-    // Dirty Icon
+  // Dirty Icon
     "layer2.texture": "Neka Theme/assets/light/dirty.png",
     "layer2.inner_margin": 0,
 
-    // Dirty Icon Hover
+  // Dirty Icon Hover
     "layer3.texture": "Neka Theme/assets/light/dirty--hover.png",
     "layer3.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
   },
 
-    // Default
+  // Default
   {
     "class": "tab_close_button",
     "settings": ["show_tab_close_buttons"],
     "content_margin": [8, 8],
   },
-    // Selected Tab
+  // Selected Tab
   {
     "class": "tab_close_button",
     "settings": ["show_tab_close_buttons"],
@@ -387,7 +389,7 @@
     "layer0.opacity": 0, // Close Icon
     "layer1.opacity": 1, // Close Icon Hover
   },
-    // Default hover
+  // Default hover
   {
     "class": "tab_close_button",
     "settings": ["show_tab_close_buttons"],
@@ -395,7 +397,7 @@
     "layer0.opacity": 0, // Close Icon
     "layer1.opacity": 1, // Close Icon Hover
   },
-    // Dirty tab
+  // Dirty tab
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
@@ -406,7 +408,7 @@
     "content_margin": [8, 8],
   },
 
-    // Dirty tab on hover
+  // Dirty tab on hover
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
@@ -416,7 +418,7 @@
     "layer2.opacity": 0, // Dirty Icon
     "layer3.opacity": 0  // Dirty Icon Hover
   },
-    // Selected dirty tab
+  // Selected dirty tab
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
@@ -425,7 +427,7 @@
     "layer2.opacity": 0, // Dirty Icon
     "layer3.opacity": 1  // Dirty Icon Hover
   },
-    // Selected dirty tab on hover
+  // Selected dirty tab on hover
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
@@ -435,7 +437,7 @@
     "layer2.opacity": 0, // Dirty Icon
     "layer3.opacity": 0  // Dirty Icon Hover
   },
-    // tab set scroll left | scroll right
+  // tab set scroll left | scroll right
   {
     "class": "scroll_tabs_left_button",
     "content_margin": [12, 7],
@@ -491,7 +493,6 @@
   /* @ SIDEBAR
   * Sidebar panel settings and behavioring
   ========================================================================= */
-
 
   {
     "class": "sidebar_container",
@@ -596,14 +597,14 @@
   {
     "class": "sidebar_label",
     "attributes": ["transient"],
-    "font.italic": false,
+    "font.italic": false
   },
 
-    // File icons and folder
+  // File icons and folder
 
   {
     "class": "icon_file_type",
-    // layer0.texture is filled in by code with the relevant icon name
+  // layer0.texture is filled in by code with the relevant icon name
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [-3, 2, -3, -5],
     "content_margin": [8, 9]
@@ -619,7 +620,7 @@
     "layer0.opacity": 1
   },
 
-    // Secondary folder icon (original) used as main folder icon
+  // Secondary folder icon (original) used as main folder icon
 
   {
     "class": "icon_folder",
@@ -654,23 +655,23 @@
     "class": "icon_folder",
     "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
     "layer3.texture": {
-    "keyframes": [
-       "Neka Theme/assets/light/folder_opened--hover-0.png",
-       "Neka Theme/assets/light/folder_opened--hover-1.png",
-       "Neka Theme/assets/light/folder_opened--hover-2.png",
-       "Neka Theme/assets/light/folder_opened--hover-3.png",
-       "Neka Theme/assets/light/folder_opened--hover-4.png",
-       "Neka Theme/assets/light/folder_opened--hover-5.png",
-       "Neka Theme/assets/light/folder_opened--hover-5.png",
-       "Neka Theme/assets/light/folder_opened--hover-5.png",
-       "Neka Theme/assets/light/folder_opened--hover-6.png",
-       "Neka Theme/assets/light/folder_opened--hover-6.png",
-       "Neka Theme/assets/light/folder_opened--hover-6.png",
-       "Neka Theme/assets/light/folder_opened--hover-6.png",
-       "Neka Theme/assets/light/folder_opened--hover-7.png",
-    ],
-    "loop": false,
-    "frame_time": 0.020,
+      "keyframes": [
+        "Neka Theme/assets/light/folder_opened--hover-0.png",
+        "Neka Theme/assets/light/folder_opened--hover-1.png",
+        "Neka Theme/assets/light/folder_opened--hover-2.png",
+        "Neka Theme/assets/light/folder_opened--hover-3.png",
+        "Neka Theme/assets/light/folder_opened--hover-4.png",
+        "Neka Theme/assets/light/folder_opened--hover-5.png",
+        "Neka Theme/assets/light/folder_opened--hover-5.png",
+        "Neka Theme/assets/light/folder_opened--hover-5.png",
+        "Neka Theme/assets/light/folder_opened--hover-6.png",
+        "Neka Theme/assets/light/folder_opened--hover-6.png",
+        "Neka Theme/assets/light/folder_opened--hover-6.png",
+        "Neka Theme/assets/light/folder_opened--hover-6.png",
+        "Neka Theme/assets/light/folder_opened--hover-7.png",
+      ],
+      "loop": false,
+      "frame_time": 0.020,
     },
     "layer1.opacity": 0.0,
     "layer2.opacity": 0.0,
@@ -686,29 +687,29 @@
   {
     "class": "icon_folder_loading",
     "layer1.texture": {
-     "keyframes": [
-       "Neka Theme/assets/light/spinner11.png",
-       "Neka Theme/assets/light/spinner10.png",
-       "Neka Theme/assets/light/spinner9.png",
-       "Neka Theme/assets/light/spinner8.png",
-       "Neka Theme/assets/light/spinner7.png",
-       "Neka Theme/assets/light/spinner6.png",
-       "Neka Theme/assets/light/spinner5.png",
-       "Neka Theme/assets/light/spinner4.png",
-       "Neka Theme/assets/light/spinner3.png",
-       "Neka Theme/assets/light/spinner2.png",
-       "Neka Theme/assets/light/spinner1.png",
-       "Neka Theme/assets/light/spinner.png",
-     ],
-     "loop": true,
-     "frame_time": 0.075,
+      "keyframes": [
+        "Neka Theme/assets/light/spinner11.png",
+        "Neka Theme/assets/light/spinner10.png",
+        "Neka Theme/assets/light/spinner9.png",
+        "Neka Theme/assets/light/spinner8.png",
+        "Neka Theme/assets/light/spinner7.png",
+        "Neka Theme/assets/light/spinner6.png",
+        "Neka Theme/assets/light/spinner5.png",
+        "Neka Theme/assets/light/spinner4.png",
+        "Neka Theme/assets/light/spinner3.png",
+        "Neka Theme/assets/light/spinner2.png",
+        "Neka Theme/assets/light/spinner1.png",
+        "Neka Theme/assets/light/spinner.png",
+      ],
+      "loop": true,
+      "frame_time": 0.075,
     },
 
     "layer0.opacity": 0.0,
     "content_margin": [8, 8]
   },
 
-    // Symlink folder icon
+  // Symlink folder icon
   {
     "class": "icon_folder_dup",
     "layer0.texture": "Neka Theme/assets/light/symlink_folder.png",
@@ -728,7 +729,7 @@
     "layer0.texture": "Neka Theme/assets/light/symlink_folder--hover.png"
   },
 
-    // Hidden arrow icon before folder
+  // Hidden arrow icon before folder
 
   {
     "class": "disclosure_button_control",
@@ -767,29 +768,29 @@
     "layer0.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" }
   },
 
-    // Opened files
+  // Opened files
   {
     "class": "close_button",
     "content_margin": [8, 8],
 
-    // Default Close icon
+  // Default Close icon
     "layer0.texture": "Neka Theme/assets/light/close.png",
     "layer0.opacity": { "target": 0.0, "speed": 7.0, "interpolation": "smoothstep" },
     "layer0.inner_margin": [0, 0],
 
-    // Hover close icon
+  // Hover close icon
     "layer1.texture": "Neka Theme/assets/light/close--hover.png",
     "layer1.opacity": 0,
     "layer1.inner_margin": [0, 0],
   },
 
 
-    // Opened file hover
+  // Opened file hover
 
   {
     "class": "close_button",
     "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
-    // Default Close icon
+  // Default Close icon
     "layer0.texture": "Neka Theme/assets/light/close.png",
     "layer0.opacity": { "target": 1.0, "speed": 7.0, "interpolation": "smoothstep" },
     "layer0.inner_margin": [0, 0],
@@ -814,8 +815,8 @@
   * Scrollbars settings and behavioring
   ========================================================================= */
 
-    // Normal Vertical scrollbar track
-    // !!!
+  // Normal Vertical scrollbar track
+  // !!!
   {
     "class": "scroll_bar_control",
     "layer0.tint" : [250, 250, 250],
@@ -824,7 +825,7 @@
     "blur": false
   },
 
-    // Normal Vertical scrollbar track inside overlay panel
+  // Normal Vertical scrollbar track inside overlay panel
 
   {
     "class": "scroll_bar_control",
@@ -835,7 +836,7 @@
     "blur": false
   },
 
-    // Normal horizontal scrollbar track
+  // Normal horizontal scrollbar track
 
   {
     "class": "scroll_bar_control",
@@ -846,8 +847,8 @@
     "blur": false
   },
 
-    // Normal horizontal scrollbar track inside overlay panel
-    // !!!
+  // Normal horizontal scrollbar track inside overlay panel
+  // !!!
   // {
   //  "class": "scroll_bar_control",
   //  "attributes": ["horizontal"],
@@ -858,7 +859,7 @@
   //  "blur": false
   //  },
 
-    // Scrollbars corner
+  // Scrollbars corner
 
   {
     "class": "scroll_corner_control",
@@ -869,7 +870,7 @@
     "blur": false
   },
 
-    // Vertical puck controller
+  // Vertical puck controller
 
   {
     "class": "puck_control",
@@ -881,7 +882,7 @@
     "blur": false
   },
 
-    // Horizontal puck controller
+  // Horizontal puck controller
 
   {
     "class": "puck_control",
@@ -980,7 +981,7 @@
     "font.size": 12
   },
 
-    // Status bar labels
+  // Status bar labels
 
   {
     "class": "label_control",
@@ -989,7 +990,7 @@
     "font.bold": false
   },
 
-    // Text field labels
+  // Text field labels
 
   {
     "class": "status_bar",
@@ -1025,7 +1026,7 @@
     "content_margin": [6, 14, 6, 8],
   },
 
-    // Status bar panel close icon
+  // Status bar panel close icon
 
   {
     "class": "panel_close_button",
@@ -1043,7 +1044,7 @@
     "layer1.opacity": 1.0,
   },
 
-    // Texline input
+  // Texline input
 
   {
     "class": "text_line_control",
@@ -1055,7 +1056,7 @@
   },
 
 
-    // Textline input inside overlay panels
+  // Textline input inside overlay panels
 
   {
     "class": "text_line_control",
@@ -1068,7 +1069,7 @@
     "content_margin": [26, 8, 26, 8]
   },
 
-    // Textline input oveflow menu
+  // Textline input oveflow menu
   {
     "class": "dropdown_button_control",
     "content_margin": [12, 12],
@@ -1151,7 +1152,7 @@
   /* Buttons icons settings
   ===================================================================== */
 
-    // Regex Icon
+  // Regex Icon
   {
     "class": "icon_regex",
     "layer0.texture": "Neka Theme/assets/light/regex--hover.png",
@@ -1168,7 +1169,7 @@
     "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
   },
 
-    // Preserve case sensitive
+  // Preserve case sensitive
 
   {
     "class": "icon_case",
@@ -1186,7 +1187,7 @@
     "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
   },
 
-    // Wholeword
+  // Wholeword
 
   {
     "class": "icon_whole_word",
@@ -1205,7 +1206,7 @@
     "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
   },
 
-    // Wrap
+  // Wrap
 
   {
     "class": "icon_wrap",
@@ -1223,7 +1224,7 @@
     "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
   },
 
-    // In selection
+  // In selection
 
   {
     "class": "icon_in_selection",
@@ -1234,7 +1235,6 @@
     "content_margin": [12, 12]
   },
 
-
   {
     "class": "icon_in_selection",
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
@@ -1242,7 +1242,7 @@
     "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
   },
 
-    // Highlight Result
+  // Highlight Result
 
   {
     "class": "icon_highlight",
@@ -1260,7 +1260,7 @@
     "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
   },
 
-    // Preserve Case
+  // Preserve Case
 
   {
     "class": "icon_preserve_case",
@@ -1278,7 +1278,7 @@
     "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
   },
 
-    // Show context
+  // Show context
 
   {
     "class": "icon_context",
@@ -1297,7 +1297,7 @@
     "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
   },
 
-    // Use buffer
+  // Use buffer
 
   {
     "class": "icon_use_buffer",
@@ -1315,7 +1315,7 @@
     "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
   },
 
-    // Reverse direction
+  // Reverse direction
 
   {
     "class": "icon_reverse",
@@ -1358,6 +1358,11 @@
   },
   {
     "class": "label_control",
+    "settings": ["ui_font_size_small"],
+    "font.size": 11
+  },
+  {
+    "class": "tool_tip_label_control",
     "settings": ["ui_font_size_small"],
     "font.size": 11
   }
