@@ -10,22 +10,22 @@ semanticClass: neka.dark
 settings:
 
 - settings:
-    activeGuide: '#314559'
+    activeGuide: '#B3B2B1'
     background: &bg '#FAFAFA'
     caret: &constant '#CC7AB1'
     findHighlight: *constant
-    findHighlightForeground: '#00000050'
+    findHighlightForeground: &white '#ffffff'
     foreground: &fg '#5C6773'
-    guide: '#F2F1F0'
+    guide: &gutter '#D9D8D7'
     gutter: *bg
-    gutterForeground: &selection '#F0EEE4'
+    gutterForeground: *gutter
     inactiveSelection: &in_selection '#F2F2EB'
     invisibles: '#343434'
     lineHighlight: '#F2F2F2'
-    selection: *selection
+    selection: &selection '#F0EEE4'
     selectionBorder: *selection
     shadow: '#00000010'
-    stackGuide: *in_selection
+    stackGuide: '#DEDDDC'
 
 - name: Comments
   scope: comment, punctuation.definition.comment
@@ -94,7 +94,7 @@ settings:
   scope: invalid
   settings:
     background: *tag
-    foreground: &white '#ffffff'
+    foreground: *white
 
 - name: Deprecated
   scope: invalid.deprecated
