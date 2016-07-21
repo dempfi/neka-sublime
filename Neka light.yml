@@ -12,6 +12,7 @@ settings:
 - settings:
     activeGuide: '#B3B2B1'
     background: &bg '#FAFAFA'
+    inactiveBackground: *bg
     caret: '#E62E2E'
     findHighlight: &constant '#A37ACC'
     findHighlightForeground: &white '#ffffff'
@@ -20,7 +21,7 @@ settings:
     gutter: *bg
     gutterForeground: *gutter
     inactiveSelection: &in_selection '#F2F2EB'
-    invisibles: '#343434'
+    invisibles: '#FF0000'
     lineHighlight: '#F2F2F2'
     selection: &selection '#F0EEE4'
     selectionBorder: *selection
@@ -93,8 +94,7 @@ settings:
 - name: Invalid
   scope: invalid
   settings:
-    background: *tag
-    foreground: *white
+    foreground: &error '#FF3333'
 
 - name: Deprecated
   scope: invalid.deprecated

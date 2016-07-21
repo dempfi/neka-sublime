@@ -7,7 +7,7 @@
   {
     "class" : "sheet_container_control",
     "layer0.tint" : [15, 22, 28],
-    "layer0.opacity" : 1
+    "layer0.opacity" : 1.0
   },
 
 
@@ -18,7 +18,7 @@
   {
     "class": "grid_layout_control",
     "border_size": 0,
-    "border_color": [40, 40, 40]
+    "border_color": [23, 31, 38]
   },
 
 
@@ -497,8 +497,8 @@
 
   {
     "class": "sidebar_container",
-    "content_margin": [0, -15, 0, 0],
-    "layer0.draw_center": false,
+    "content_margin": [0, -10, 0, 0],
+    "layer0.draw_center": true,
     "layer0.inner_margin": [0, 24, 12, 24],
     "layer0.opacity": 1,
     "layer0.tint": [15, 22, 28],
@@ -506,7 +506,7 @@
 
   {
     "class": "sidebar_tree",
-    "row_padding": [15, 5],
+    "row_padding": [20, 6],
     "indent": 12,
     "indent_offset": 0,
     "layer0.tint": [15, 22, 28],
@@ -607,8 +607,8 @@
     "class": "icon_file_type",
   // layer0.texture is filled in by code with the relevant icon name
     "layer0.opacity": 0.6,
-    "layer0.inner_margin": [-3, 2, -3, -5],
-    "content_margin": [8, 9]
+    "layer0.inner_margin": [0, 0, 0, 0],
+    "content_margin": [9, 9]
   },
   {
     "class": "icon_file_type",
@@ -943,7 +943,6 @@
   * Minimap settings and behavioring
   ========================================================================= */
 
-
   {
     "class": "minimap_control",
     "settings": ["always_show_minimap_viewport"],
@@ -1004,7 +1003,7 @@
   {
    "class": "status_container",
    "min_size": [0, 0],
-   "content_margin": [12, 10, 12, 10],
+   "content_margin": [12, 6, 12, 6],
   },
 
   {
@@ -1096,47 +1095,25 @@
   // Button labels
 
   {
-    "class": "label_control",
-    "parents": [{"class": "button_control"}],
-    "color":  [71, 87, 102],
-    "font.bold": false
+    "class": "button_control",
+    "content_margin": [6, 12],
+    "min_size": [75, 0],
+    "layer0.tint": [0, 0, 0, 0],
+    "layer0.opacity": 0.0
   },
 
   {
-    "class": "button_control",
-    "color": [71, 87, 102],
-    "content_margin": [6, 12],
-    "min_size": [75, 0],
-    "layer0.tint": [11, 16, 21, 0],
-    "layer0.opacity": 0.0,
-    "layer0.inner_margin": [6, 6],
-    "layer1.tint": [11, 16, 21, 0],
-    "layer1.opacity": 0.0,
-    "layer1.inner_margin": [6, 6],
-    "layer2.texture": "Neka Theme/assets/dark/button--hover.png",
-    "layer2.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
-    "layer2.inner_margin": [8, 0]
+    "class": "label_control",
+    "parents": [{"class": "button_control"}],
+    "color":  [71, 87, 102]
   },
+
   {
-    "class": "button_control",
-    "attributes": ["pressed"],
-    "color": [255, 170, 51],
-    "layer0.opacity": 0,
-    "layer2.opacity": 1.0
+    "class": "label_control",
+    "parents": [{"class": "button_control", "attributes": ["hover"]}],
+    "color":  [242, 151, 24]
   },
-  {
-    "class": "button_control",
-    "color": [255, 170, 51],
-    "attributes": ["pressed", "hover"],
-    "layer2.opacity": 0,
-    "layer1.opacity": 1,
-  },
-  {
-    "class": "button_control",
-    "attributes": ["hover"],
-    "color":  [255, 170, 51],
-    "layer2.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" }
-  },
+
   // !!!
   // Small Icon Buttons
   {
@@ -1336,16 +1313,29 @@
   },
 
 
-    /* Visual settings
-    ===================================================================== */
+  /* Visual settings
+  ===================================================================== */
 
-  // Small status bar
+  // Separator
   {
-    "class": "status_container",
-    "settings": ["neka_theme_small_statusbar"],
-    "content_margin": [12, 6, 12, 6],
+    "class": "panel_control",
+    "settings": ["ui_separator"],
+    "layer0.tint": [17, 24, 31],
+    "layer1.texture": "Neka Theme/assets/dark/panel_separator.png",
+    "layer1.opacity": 0.2
   },
 
+  {
+    "class": "status_bar",
+    "settings": ["ui_separator"],
+    "layer0.tint": [17, 24, 31]
+  },
+
+  {
+    "class": "grid_layout_control",
+    "settings": ["ui_separator"],
+    "border_size": 1
+  },
   // UI font sizees
   // ==============
   {

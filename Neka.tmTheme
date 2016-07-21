@@ -194,10 +194,8 @@
 			<string>invalid</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#36A3D9</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#FF3333</string>
 			</dict>
 		</dict>
 		<dict>

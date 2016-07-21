@@ -93,14 +93,13 @@ settings:
 - name: Invalid
   scope: invalid
   settings:
-    background: *tag
-    foreground: &white '#ffffff'
+    foreground: &error '#FF3333'
 
 - name: Deprecated
   scope: invalid.deprecated
   settings:
     background: *keyword
-    foreground: *white
+    foreground: &white '#ffffff'
 
 - name: Html punctuations tags
   scope: punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag
